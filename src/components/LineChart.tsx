@@ -27,15 +27,15 @@ function LineChart() {
     }, []);
 
     return (
-        <div className="w-[100%] h-auto p-3 shadow-md mt-5">
-            {/* line chart */}
-            <div className="w-[800px]  flex flex-col">
+
+
+            <div className="w-[750px]  flex flex-col">
                 <h2 className="text-[#476CDA] ">Earnings Overview</h2>
-                <div className='p-5 rounded-xl w-full h-fit'>
+                <div>
                     <canvas id='myChart'></canvas>
                 </div>
             </div>
-        </div>
+
     );
 }
 

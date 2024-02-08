@@ -12,9 +12,9 @@ function PieChart() {
             label: 'My First Dataset',
             data: [300, 50, 100],
             backgroundColor: [
-                'rgb(255, 99, 132)',
-                'rgb(54, 162, 235)',
-                'rgb(255, 205, 86)'
+                'rgb(71, 108, 218)',
+                'rgb(54, 185, 204)',
+                'rgb(28, 200, 138)'
             ],
             hoverOffset: 4
         }]
@@ -23,7 +23,7 @@ function PieChart() {
 
     return (
         <div>
-            <h2>Chart Component</h2>
+            <h1 className="text-[#476CDA]">Revenue Sources</h1>
             <Doughnut data={data} />
         </div>
     )
