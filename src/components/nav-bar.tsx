@@ -1,8 +1,8 @@
 import React from 'react';
 import {FaSearch} from "react-icons/fa";
-import { CgProfile } from "react-icons/cg";
-import { FaBell } from "react-icons/fa";
-import { BsEnvelopeFill } from "react-icons/bs";
+import {CgProfile} from "react-icons/cg";
+import {FaBell} from "react-icons/fa";
+import {BsEnvelopeFill} from "react-icons/bs";
 
 function NavBar() {
     return (

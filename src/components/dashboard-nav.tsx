@@ -1,8 +1,8 @@
 import React from 'react';
-import {FaFaceSmileWink,FaGear} from "react-icons/fa6";
+import {FaFaceSmileWink, FaGear} from "react-icons/fa6";
 import {AiFillDashboard} from "react-icons/ai";
-import { MdOutlineNavigateNext } from "react-icons/md";
-import { AiFillTool } from "react-icons/ai";
+import {MdOutlineNavigateNext} from "react-icons/md";
+import {AiFillTool} from "react-icons/ai";
 
 function DashboardNav() {
     return (
