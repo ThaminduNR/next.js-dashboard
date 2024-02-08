@@ -17,16 +17,16 @@ function PieChart() {
                 'rgb(28, 200, 138)'
             ],
             borderWidth: 3,
-            hoverOffset: 2
+            hoverOffset: 1
 
         }]
-    };
+    }
 
 
     return (
         <div>
             <h1 className="text-[#476CDA]">Revenue Sources</h1>
-            <Doughnut data={data} />
+            <Doughnut data ={data} />
         </div>
     )
 }
