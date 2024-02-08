@@ -6,7 +6,7 @@ import {AiFillTool} from "react-icons/ai";
 
 function DashboardNav() {
     return (
-        <div className='w-[300px] min-h-svh bg-[#476CDA]'>
+        <div className='w-[240px] min-h-svh bg-[#476CDA]'>
             <div className='flex gap-5 items-center justify-center p-4'>
                 <FaFaceSmileWink className='text-3xl text-white'/>
                 <h1 className='text-lg text-white'>SB ADMIN</h1>

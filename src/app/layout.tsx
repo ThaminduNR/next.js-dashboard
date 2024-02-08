@@ -20,7 +20,7 @@ export default function RootLayout({
         <main>
             <div className='flex'>
                 <DashboardNav/>
-                <div className='flex flex-col w-[calc(100%-300px)] min-h-[calc(100%-60px)]'>
+                <div className='flex flex-col w-[calc(100%-240px)] min-h-[calc(100%-60px)]'>
                     <NavBar/>
                     <div className='p-4'>
                         {children}
