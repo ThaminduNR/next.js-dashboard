@@ -28,7 +28,7 @@ export default function Home() {
                 <MainContentCard title="PENDING REQUESTS" price="18"
                                  icon={<IoIosChatbubbles size={40} className="text-[#DDDFEB]"/>} color="#F6C23E"/>
             </div>
-            <div className="flex flex-3 w-[100%] h-auto justify-between mt-5">
+            <div className="flex flex-3 w-[100%] h-auto justify-between mt-5 gap-4">
                 <div className="w[65%] p-5 shadow-md">
                     <LineChart/>
                 </div>
